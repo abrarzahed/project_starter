@@ -226,6 +226,10 @@ hr {
   background: var(--gray-50);
   border: 1px solid var(--gray-200);
 }
+.form-input:focus,
+.form-textarea:focus {
+  outline: 1px solid var(--primary-500);
+}
 .form-textarea {
   height: 6rem;
 }
