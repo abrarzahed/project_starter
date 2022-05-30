@@ -37,10 +37,10 @@ main {
    * `article` contexts in Chrome, Firefox, and Safari.
    */
 
-h1 {
+/* h1 {
   font-size: 2em;
   margin: 0.67em 0;
-}
+} */
 
 /* Grouping content
      ========================================================================== */
@@ -62,7 +62,7 @@ hr {
    */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
+  font-family: var(--bodyFont); /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -105,7 +105,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
+  font-family: var(--bodyFont); /* 1 */
   font-size: 1em; /* 2 */
 }
 
